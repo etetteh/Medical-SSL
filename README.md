@@ -1,4 +1,4 @@
-# Medical-SSL
+# Medical SSL
 Medical Imaging Using Self-Supervised Learning
 
 ## Requirements
