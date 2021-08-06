@@ -3,7 +3,7 @@ Medical Imaging Using Self-Supervised Learning
 
 ## Abstract
 Visual representation learning in deep learning has been performed previously using visual data with annotations or metadata, in a fashion known as supervised learning.
-Although, supervised learning in vision has resulted in breakthrough performeances it comes at a very expensive cost - the amount of money and time needed to annotate datasets. Also, using annotations likely results in the introduction of inductive biases during pre-training. This forces the algorithm to learn feature representations that are prone to spurious correlation.
+Although, supervised learning in vision has resulted in breakthrough performeances it comes at a very expensive cost - the amount of money and time needed to annotate datasets. Also, using annotations likely results in the introduction of biases during pre-training. This forces the algorithm to learn feature representations that are prone to spurious correlation.
 
 One way to mitigate this pnenomenon is self-supervised learning, a paradigm that enables algorithms to learn intrinsic representations within the data using signals from the data itself, and enabling representation learning from huge magnitudes of data without annotations or metadata.
 
