@@ -27,15 +27,15 @@ Install the following with `pip` \
 `sklern`
 
 ## SSL Models
-[BarlowTwins](https://arxiv.org/abs/2103.03230) \
-[BYOL](https://arxiv.org/abs/2006.07733) \
-[MoCo](https://arxiv.org/abs/1911.05722) \
-[NNCLR](https://arxiv.org/abs/2104.14548) \
-[SimCLR](https://arxiv.org/abs/2002.05709) \
-[SimSiam](https://arxiv.org/abs/2011.10566)
+[Self-Supervised Learning via Redundancy Reduction (Barlow Twins)](https://arxiv.org/abs/2103.03230) \
+[Bootstrap Your Own Latent (BYOL)](https://arxiv.org/abs/2006.07733) \
+[Momentum Contrast for Unsupervised Visual Representation Learning (MoCo)](https://arxiv.org/abs/1911.05722) \
+[Nearest-Neighbor Contrastive Learning of Visual Representations (NNCLR)](https://arxiv.org/abs/2104.14548) \
+[A Simple Framework for Contrastive Learning of Visual Representations (SimCLR)](https://arxiv.org/abs/2002.05709) \
+[Exploring Simple Siamese Representation Learning (SimSiam)](https://arxiv.org/abs/2011.10566)
 
 ## Backbone Architectures
-We use the following [Torchvision pre-trained models](https://github.com/pytorch/vision) as the backbone architecture for each SSL model \
+We use the following [Torchvision pre-trained models](https://github.com/pytorch/vision) as the **backbone** architecture for each SSL model \
 [DenseNet-121](https://arxiv.org/abs/1608.06993) \
 [GoogleNet](https://arxiv.org/abs/1409.4842v1) \
 [Mnasnet-1_0](https://arxiv.org/abs/1807.11626v3) \
