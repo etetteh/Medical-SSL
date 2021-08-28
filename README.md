@@ -37,9 +37,5 @@ Install the following with `pip` \
 ## Backbone Architectures
 We use the following [Torchvision pre-trained models](https://github.com/pytorch/vision) as the **backbone** architecture for each SSL model \
 [DenseNet-121](https://arxiv.org/abs/1608.06993) \
-[GoogleNet](https://arxiv.org/abs/1409.4842v1) \
 [Mnasnet-1_0](https://arxiv.org/abs/1807.11626v3) \
-[MobileNet-V2](https://arxiv.org/abs/1801.04381) \
 [ResNet-50](https://arxiv.org/abs/1512.03385) \
-[ShuffleNet-V2_x1_0](https://arxiv.org/abs/1807.11164) \
-[SqueezeNet-1_1](https://arxiv.org/abs/1602.07360)
