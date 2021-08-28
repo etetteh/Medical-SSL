@@ -7,14 +7,14 @@ Although, supervised learning in vision has resulted in breakthrough performeanc
 
 One way to mitigate this pnenomenon is self-supervised learning, a paradigm that enables algorithms to learn intrinsic representations within the data using signals from the data itself, and enabling representation learning from huge magnitudes of data without annotations or metadata.
 
-In this work, we explore some of the recent contributions in self-supervised learning for vision in the space of medical imaging. 
+In this work, we explore some of the recent contributions in self-supervised learning for vision, in the space of medical imaging. 
 Our contributions:
 
-1. Apply self-supervised learning algorithms such as BarlowTwins, BYOL, MoCo, NNCLR, SimCLR, and SimSiam in the domain of medical imaging for pathology detection/classification.
+1. Apply self-supervised learning algorithms -- BarlowTwins, BYOL, MoCo, NNCLR, SimCLR, and SimSiam -- in the domain of medical imaging for pathology detection/classification.
 
-2. Use various model architectures as the backbone for these algorithms. We experiment with DenseNet-121, GoogleNet, MnasNet, MobileNet V2, ResNet-50, ShuffleNet and SqueezeNet. The original algorithms use a ResNet-50 as the backbone architecture.
+2. Use various model architectures as the backbone for these algorithms. Experiment with DenseNet-121, MnasNet, and ResNet-50. The original algorithms use a ResNet-50 as the backbone architecture.
 
-3. We train all the algorithms using the data augmentation technique proposed in SimCLR, and use the embedding size proposed in NNCLR in BarlowTwins, BYOL, and SimSiam. Given the smaller number of samples of medical data, we use smaller batch sizes than the proposed large batch sizes from some of the original works.
+3. Train all the algorithms using the data augmentation technique proposed in SimCLR, and use the embedding size proposed in NNCLR in BarlowTwins, BYOL, and SimSiam. Given the smaller number of samples of medical data, we use smaller batch sizes than the proposed large batch sizes from some of the original works.
 
 ## Requirements
 Install the following with `pip` \
